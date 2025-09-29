@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "../styles/StackingCards.scss";
+import "../styles/stackingCards.scss";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

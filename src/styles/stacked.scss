@@ -1,0 +1,39 @@
+/* stacked.scss */
+.stacked-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.stacked-section {
+  height: 100vh;
+  position: relative;
+}
+
+.stacked-section:not(:first-child) {
+  margin-top: -100vh;
+  /* This creates the stacking effect */
+}
+
+.background {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Important: Create a stacking context with will-change */
+  will-change: transform;
+}
+
+.overlay-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 600px;
+}

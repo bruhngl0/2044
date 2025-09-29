@@ -10,9 +10,9 @@ const HeroSection = () => {
 
       <div className="hero__overlay">
         <div className="hero__content">
-          <h1>Your key to the world.</h1>
-          <p>Access coveted dining, hotels, and events.</p>
-          <button className="hero__cta">Request Invite</button>
+          <h1>Twenty44</h1>
+          <p>More than a game. A way of living.</p>
+          <button className="hero__cta">Explore</button>
         </div>
       </div>
     </section>

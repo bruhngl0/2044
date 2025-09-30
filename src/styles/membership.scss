@@ -1,0 +1,58 @@
+.membership-main{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.membership-img{
+  width: 100%;
+
+  >img{
+    width: 100%;
+  }
+}
+
+.membership-content{
+
+}
+
+.membership-content-1{
+
+}
+
+.membership-content-2{
+  
+}
+
+.membership-content-btn{
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+
+}
+
+.membership-plan{
+
+}
+
+.membership-plan-1{
+  border: 1px solid green;
+  padding: 12px;
+  margin-bottom: 4rem;
+}
+
+.membership-plan-2{
+  border: 1px solid green;
+  padding: 12px;
+  margin-bottom: 4rem;
+}
+
+.membership-cta{
+  margin-bottom: 4rem;
+  >button{
+    margin: 1rem;
+  }
+}

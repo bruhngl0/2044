@@ -1,17 +1,17 @@
-import Hero from "./components/Hero.jsx";
-import About from "./components/About.jsx";
-import StackedImages from "./components/StackedImages.jsx";
-import Project from "./components/Project.jsx";
-import StackingCards from "./components/StackingCards.jsx";
+import Landing from "./components/Landing.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Membership from "./components/Membership.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
   return (
-    <>
-      <Hero />
-      <About />
-      <Project />
-    </>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Landing />} /> {/* Home page route */}
+        <Route path="/membership" element={<Membership />} />{" "}
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 export default App;

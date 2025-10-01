@@ -5,7 +5,7 @@ const Thankyou = () => {
   return (
     <div className="tq-main">
       <div className="tq-icon">
-        <img src="tq1-logo.png" className="tq-logo" />
+        <img src="2044.svg" className="tq-logo" />
       </div>
       <h1 className="tq-head">Thankyou!</h1>
       <p className="tq-des">

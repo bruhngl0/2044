@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Membership from "./components/Membership.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import Waitlist from "./components/Waitlist.jsx";
+import Thankyou from "./components/Thankyou.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Landing />} /> {/* Home page route */}
         <Route path="/membership" element={<Membership />} />
         <Route path="/waitlist" element={<Waitlist />} />
+        <Route path="/contact" element={<Thankyou />} />
       </Routes>
     </BrowserRouter>
   );

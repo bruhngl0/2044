@@ -14,7 +14,7 @@ const Waitlist = () => {
     membership: "",
     join2044: "",
     experience2044: "",
-    lifestyle2044: "",
+    lifestyle: "",
     topSize: "",
     bottomSize: "",
   });
@@ -53,7 +53,7 @@ const Waitlist = () => {
 
     try {
       const response = await fetch(
-        "https://stillcircle.adityashrm500.workers.dev/api/v1/third-house",
+        "https://stillcircle.adityashrm500.workers.dev/api/v1/twenty44",
         {
           method: "POST",
           headers: {
@@ -195,9 +195,9 @@ const Waitlist = () => {
               Twenty44?
             </div>
             <input
-              id="lifestyle2044"
-              name="lifestyle2044"
-              value={formData.lifestyle2044}
+              id="lifestyle"
+              name="lifestyle"
+              value={formData.lifestyle}
               onChange={handleInputChange}
               required
             />

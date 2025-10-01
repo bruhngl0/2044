@@ -1,4 +1,5 @@
 import "../styles/membership.scss";
+import { Link } from "react-router-dom";
 
 const Membership = () => {
   return (
@@ -17,7 +18,9 @@ const Membership = () => {
       </div>
 
       <div className="membership-content-btn">
-        <button> Join The Waitlist</button>
+        <Link to="/waitlist">
+          <button> Join The Waitlist</button>
+        </Link>
       </div>
 
       <div className="membership-plan">
@@ -66,7 +69,9 @@ const Membership = () => {
         </div>
 
         <div className="membership-cta">
-          <button>Join the waitlist</button>
+          <Link to="/waitlist">
+            <button>Join the waitlist</button>
+          </Link>
           <button>Book a court</button>
         </div>
       </div>

@@ -4,7 +4,7 @@ import "../styles/project.scss";
 const projects = [
   {
     id: 1,
-    title: "MEMBERSHIPS",
+    title: "Book a court",
     description:
       "FRP and GRC planters merge enduring style with rugged durability. FRP offers sleek, lightweight design, while GRC delivers sturdy, eco-conscious elegance. Both effortlessly elevate indoor or outdoor spaces.",
     name: "EXPLORE BIG PLANTERS ↗",
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "BOOK DAILY COURT",
+    title: "final cta",
     description:
       "Transform your workspace with minimalist Concrete Desk Planters that blend function and modern style. Handcrafted from premium concrete, their sleek industrial design elevates any desk or shelf with understated sophistication.",
     name: "EXPLORE DESK PLANTERS ↗",

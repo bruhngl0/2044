@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -12,7 +13,10 @@ const About = () => {
       </p>
 
       <div className="about-button-main">
-        <button className="about-button">Discover Membership</button>
+        <Link to="/membership">
+          <button className="about-button">Discover Membership</button>
+        </Link>
+
         <p className="about-waitlist">
           Atlas membership is invite-only. Join the waitlist and we'll contact
           you if it's a fit.

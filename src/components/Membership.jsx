@@ -10,10 +10,12 @@ const Membership = () => {
       <div className="membership-content">
         <p className="membership-content-1">Twenty44 Membership</p>
         <p className="membership-content-2">
-          Circle is our singular membership tier designed for players who want
-          more from their club. Non-members can book courts through our upcoming
-          iOS and Android app, but members unlock priority access and a host of
-          exclusive benefits designed to enhance your club experience.
+          The Twenty44 Membership is your gateway into a world where sport,
+          lifestyle, and community come together with intention. Designed for
+          those who seek more than access, it offers a sense of belonging to
+          something rare and elevated. As a member, you don’t just play, you
+          experience curated moments, priority access, and exclusive privileges
+          that reflect the spirit of Twenty44.{" "}
         </p>
       </div>
 

@@ -1,12 +1,15 @@
 import React from "react";
 import "../styles/hero.scss";
+
 const HeroSection = () => {
   return (
     <section className="hero">
-      <video className="hero__video" autoPlay loop muted playsInline>
-        <source src="HeroVideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <picture className="hero__image">
+        {/* Mobile image */}
+        <source srcSet="mobileCover.jpg" media="(max-width: 768px)" />
+        {/* Desktop image */}
+        <img src="webCover.jpg" alt="Hero" />
+      </picture>
 
       <div className="hero__overlay">
         <div className="hero__content">

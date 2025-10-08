@@ -49,7 +49,7 @@ export default function ExpandableLogoButton() {
                 </div>
                 <div className="option-text">
                   <div className="option-title">Book a court</div>
-                  <div className="option-subtitle">Become a member</div>
+                  <div className="option-subtitle">Break a sweat</div>
                 </div>
               </button>
 
@@ -64,7 +64,7 @@ export default function ExpandableLogoButton() {
                   <User size={20} />
                 </div>
                 <div className="option-text">
-                  <div className="option-title">Become a Member</div>
+                  <div className="option-title">Request an invite</div>
                   <div className="option-subtitle">Join our community</div>
                 </div>
               </button>

@@ -55,7 +55,7 @@ background-color: transparent;
 
 .projects-container {
   position: relative;
-  height: 600vh; /* to allow scrolling */
+  height: 300vh; /* to allow scrolling */
   width: 100%;
   overflow-y: none;
   
@@ -79,6 +79,7 @@ background-color: transparent;
   width: 100%;
   box-shadow: 0 2px 3px rgba(222, 216, 216, 0.1);
   z-index: 1;
+  background-size: cover;
  
 }
 
@@ -110,11 +111,7 @@ background-color: transparent;
 
 
 .project-card img {
-  width: 25%;
-  height: 50%;
-  margin-top: 1rem;
-  display: flex;
-  align-self: center;
+  display: none;
 
 }
 
@@ -133,6 +130,7 @@ display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 
 
   }

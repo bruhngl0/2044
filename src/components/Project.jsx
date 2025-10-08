@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../styles/project.scss";
 
 const projects = [
@@ -8,7 +8,7 @@ const projects = [
     description: "",
     name: "EXPLORE BIG PLANTERS ↗",
     image: "party1.jpg",
-    backgroundImageMobile: "01-mobile.jpg",
+    backgroundImageMobile: "one-mob.png",
     backgroundImagePc: "party1.jpg",
     description1: "@STUDIO MASON",
     route: "/",
@@ -19,8 +19,8 @@ const projects = [
     description: "",
     name: "EXPLORE DESK PLANTERS ↗",
     image: "party1.jpg",
-    backgroundImageMobile: "03-mobile.jpg",
-    backgroundImagePc: "party1.jpg",
+    backgroundImageMobile: "two-mob.png",
+    backgroundImagePc: "two-web.png",
     description1: "@STUDIO MASON",
     route: "/",
   },
@@ -29,9 +29,9 @@ const projects = [
     title: "CTA",
     description: "",
     name: "EXPLORE BREEZE BLOCKS ↗",
-    image: "party1.jpg",
-    backgroundImageMobile: "02-mobile.jpg",
-    backgroundImagePc: "party1.jpg",
+    image: "three-mob.png",
+    backgroundImageMobile: "three-mob.png",
+    backgroundImagePc: "three-web.png",
     description1: "@STUDIO MASON",
     route: "/",
   },
@@ -39,7 +39,19 @@ const projects = [
 
 const Project = () => {
   const projectRefs = useRef([]);
+  const [isPc, setIsPc] = useState(window.innerWidth > 768);
 
+  // Handle responsive image switching
+  useEffect(() => {
+    const handleResize = () => {
+      setIsPc(window.innerWidth > 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Intersection animation
   useEffect(() => {
     const options = {
       root: null,
@@ -53,7 +65,6 @@ const Project = () => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
 
-          // Add text-visible class after 1.5 seconds
           setTimeout(() => {
             entry.target.classList.add("text-visible");
           }, 700);
@@ -62,8 +73,7 @@ const Project = () => {
             projectRefs.current[index - 1].classList.add("fade-out");
           }
         } else {
-          entry.target.classList.remove("show");
-          entry.target.classList.remove("text-visible");
+          entry.target.classList.remove("show", "text-visible");
 
           if (index > 0) {
             projectRefs.current[index - 1].classList.remove("fade-out");
@@ -72,18 +82,14 @@ const Project = () => {
       });
     }, options);
 
-    if (projectRefs.current) {
-      projectRefs.current.forEach((ref) => {
-        if (ref) observer.observe(ref);
-      });
-    }
+    projectRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
 
     return () => {
-      if (projectRefs.current) {
-        projectRefs.current.forEach((ref) => {
-          if (ref) observer.unobserve(ref);
-        });
-      }
+      projectRefs.current.forEach((ref) => {
+        if (ref) observer.unobserve(ref);
+      });
     };
   }, []);
 
@@ -95,8 +101,11 @@ const Project = () => {
           ref={(el) => (projectRefs.current[index] = el)}
           className={`project-card bg-${project.id}`}
           style={{
-            backgroundImage: `url(${project.backgroundImageMobile})`,
+            backgroundImage: `url(${
+              isPc ? project.backgroundImagePc : project.backgroundImageMobile
+            })`,
             backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         >
           <a href={project.route} className="route-main">

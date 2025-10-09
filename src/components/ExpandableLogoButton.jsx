@@ -28,11 +28,7 @@ export default function ExpandableLogoButton() {
           <div className="expanded-content">
             <div className="menu-header">
               <div className="header-logo">
-                <span></span>
-              </div>
-              <div className="header-text">
-                <h3>Twenty44</h3>
-                <p>Quick Actions</p>
+                <img src="2044.svg" />
               </div>
             </div>
 

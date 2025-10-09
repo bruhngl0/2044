@@ -16,11 +16,6 @@ const About = () => {
         <Link to="/membership">
           <button className="about-button">Discover Membership</button>
         </Link>
-
-        <p className="about-waitlist">
-          Atlas membership is invite-only. Join the waitlist and we'll contact
-          you if it's a fit.
-        </p>
       </div>
     </div>
   );

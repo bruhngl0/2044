@@ -4,9 +4,6 @@ import { Link } from "react-router-dom";
 const Membership = () => {
   return (
     <div className="membership-main">
-      <div className="membership-img">
-        <img src="hero.png" />
-      </div>
       <div className="membership-content">
         <p className="membership-content-1">Twenty44 Membership</p>
         <p className="membership-content-2">
@@ -17,12 +14,6 @@ const Membership = () => {
           experience curated moments, priority access, and exclusive privileges
           that reflect the spirit of Twenty44.{" "}
         </p>
-      </div>
-
-      <div className="membership-content-btn">
-        <Link to="/waitlist">
-          <button> Join The Waitlist</button>
-        </Link>
       </div>
 
       <div className="membership-plan">

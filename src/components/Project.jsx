@@ -24,17 +24,6 @@ const projects = [
     description1: "@STUDIO MASON",
     route: "/",
   },
-  {
-    id: 3,
-    title: "CTA",
-    description: "",
-    name: "EXPLORE BREEZE BLOCKS ↗",
-    image: "three-mob.png",
-    backgroundImageMobile: "three-mob.png",
-    backgroundImagePc: "three-web.png",
-    description1: "@STUDIO MASON",
-    route: "/",
-  },
 ];
 
 const Project = () => {

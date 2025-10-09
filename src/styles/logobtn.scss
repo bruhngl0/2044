@@ -33,6 +33,7 @@
   align-items: center;
   justify-content: center;
   background-image: url("../../public/2044.svg");
+  background-color:   #45824b;
 
   &:hover {
     transform: scale(1.1);
@@ -77,17 +78,19 @@
 
 // Menu Header
 .menu-header {
-  background: linear-gradient(to bottom right, #22c55e, #059669);
-  padding: 1.5rem;
+  background: #45824b; 
+  padding: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
+ 
 
   .header-logo {
-    width: 3rem;
-    height: 3rem;
-    background: white;
-    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    background-color: transparent; 
+    border-radius: 0%;
     display: flex;
     align-items: center;
     justify-content: center;

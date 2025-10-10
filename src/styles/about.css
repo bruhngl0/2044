@@ -1,6 +1,7 @@
 .about-container {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +10,7 @@
 }
 
 .about-main-text {
-  font-size: 2rem;
+  font-size: 4rem;
   line-height: 1.2;
   max-width: 800px;
   margin-bottom: 8rem;
@@ -29,7 +30,7 @@
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin: 2rem 0;
+  
 }
 
 .about-button:hover {
@@ -48,20 +49,20 @@
 @media (max-width: 390px) {
   .about-container {
     width: 100vw;
+    height: 80vh;
      display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
   text-align: center;
 }
 
   }
   .about-main-text {
-    padding: 32px;
-    font-size: 23px;
+    padding: 16px;
+    font-size: 18px;
     line-height: 130%;
     letter-spacing: -0.23px;
-  margin-top: 8rem;
+  margin-top: 0rem;
   margin-bottom: 0;
   }
 

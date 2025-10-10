@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import "../styles/project.scss";
 
 /* Original Styles */
 const styles = `
@@ -411,8 +410,8 @@ const Project = () => {
                 <div className="footer-contact">
                   <p>
                     Contact Us:{" "}
-                    <a href="tel:+917829152222" className="footer-phone">
-                      +91 78291 52222
+                    <a href="tel:+919854382044" className="footer-phone">
+                      +91 9854382044
                     </a>
                   </p>
                 </div>

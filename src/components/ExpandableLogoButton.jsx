@@ -61,7 +61,7 @@ export default function ExpandableLogoButton() {
                 </div>
                 <div className="option-text">
                   <div className="option-title">Request an invite</div>
-                  <div className="option-subtitle">Join our community</div>
+                  <div className="option-subtitle">Discover membership</div>
                 </div>
               </button>
             </div>

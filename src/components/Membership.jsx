@@ -63,9 +63,11 @@ const Membership = () => {
 
         <div className="membership-cta">
           <Link to="/waitlist">
-            <button>Join the waitlist</button>
+            <button className="membership-cta-btn">Join the waitlist</button>
           </Link>
-          <button>Book a court</button>
+          <Link>
+            <button className="membership-cta-btn">Book a court</button>
+          </Link>
         </div>
       </div>
     </div>

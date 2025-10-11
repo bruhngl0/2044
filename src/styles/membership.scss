@@ -6,11 +6,12 @@
   align-items: start;
   height: 100%;
   overflow-x: hidden;
+  background-color: #6c6947; 
   
 }
 
 .membership-img{
-  width: 100vw;
+  width: 100vw; 
   
 
   >img{
@@ -35,6 +36,7 @@ padding: 1rem;
 .membership-content-btn{
 padding: 1rem;
 width: 100%;
+background-color: white;
 
 }
 
@@ -44,20 +46,23 @@ padding: 1rem;
 }
 
 .membership-plan-1{
-  border: 1px solid green;
+  border: 1px solid white;
   padding: 12px;
   margin-bottom: 4rem;
 }
 
 .membership-plan-2{
-  border: 1px solid green;
+  border: 1px solid white;
   padding: 12px;
   margin-bottom: 4rem;
 }
 
 .membership-cta{
   margin-bottom: 4rem;
-  >button{
-    margin: 1rem;
-  }
+}
+
+.membership-cta-btn{
+  background-color: white;
+  margin: 1rem;
+  color: black;
 }

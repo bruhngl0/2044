@@ -371,6 +371,13 @@ const Project = () => {
                   <a href="#about" className="footer-link">
                     About Us
                   </a>
+
+                  <p>
+                    Contact Us:{" "}
+                    <a href="tel:+919854382044" className="footer-phone">
+                      +91 9854382044
+                    </a>
+                  </p>
                 </div>
 
                 <div className="footer-section">
@@ -405,15 +412,6 @@ const Project = () => {
                   <a href="#refund" className="footer-link">
                     Refund and Cancellation Policy
                   </a>
-                </div>
-
-                <div className="footer-contact">
-                  <p>
-                    Contact Us:{" "}
-                    <a href="tel:+919854382044" className="footer-phone">
-                      +91 9854382044
-                    </a>
-                  </p>
                 </div>
               </div>
             </footer>

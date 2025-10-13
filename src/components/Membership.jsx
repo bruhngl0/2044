@@ -56,19 +56,18 @@ const Membership = () => {
             <li> Dining savings at BBC</li>
             <li> Priority access to elite coaches + advanced programs</li>
             <li> First access to apparel & collaborations</li>
-            <li> Recognition in The Circle community</li>
+
             <li> Extra credits at 20% off</li>
           </ul>
         </div>
-
-        <div className="membership-cta">
-          <Link to="/waitlist">
-            <button className="membership-cta-btn">Join the waitlist</button>
-          </Link>
-          <Link>
-            <button className="membership-cta-btn">Book a court</button>
-          </Link>
-        </div>
+      </div>
+      <div className="membership-cta">
+        <Link to="/waitlist">
+          <button className="membership-cta-btn">Join the waitlist</button>
+        </Link>
+        <Link>
+          <button className="membership-cta-btn">Book a court</button>
+        </Link>
       </div>
     </div>
   );

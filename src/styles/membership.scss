@@ -6,7 +6,7 @@
   align-items: start;
   height: 100vh;
   overflow-x: hidden;
-  background-color: #45824b; 
+  background-color: #2d4d31;
   
 }
 
@@ -14,7 +14,7 @@
   width: 100vw; 
   
 
-  >img{
+  >img{ 
     width: 100%;
   }
 }
@@ -111,10 +111,10 @@ align-items: center;
   padding: 12px;
   background-color: #f1f1f1;
   color: #45824b;
-  border-radius: 10%;
+  border-radius: 20px;
  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
  width: auto;
- margin-bottom: 1rem;
+ margin-bottom: 2rem;
  height: auto;
  margin-right: 0;
 }
@@ -124,7 +124,7 @@ align-items: center;
   padding: 12px;
   background-color: #f1f1f1;
 color: #45824b;
-  border-radius: 10%;
+  border-radius: 20px;
  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
  width: auto;
  height: auto;

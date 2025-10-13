@@ -371,13 +371,6 @@ const Project = () => {
                   <a href="#about" className="footer-link">
                     About Us
                   </a>
-
-                  <p>
-                    Contact Us:{" "}
-                    <a href="tel:+919854382044" className="footer-phone">
-                      +91 9854382044
-                    </a>
-                  </p>
                 </div>
 
                 <div className="footer-section">

@@ -1,9 +1,20 @@
+.waitlist2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+
+
+
 .membership-main{
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   height: auto;
   overflow-x: hidden;
   background-color: #2d4d31;
@@ -20,16 +31,36 @@
 }
 
 .membership-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .membership-content-1{
-padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+padding: 1rem; 
+font-size: 44px;
+font-weight: 600;
+margin-top: 10rem;
+margin-bottom: 0;
 
 
 }
 
 .membership-content-2{
  padding: 1rem;
+ padding-top: 0;
+ align-text: center;
+ width: 85vw;
+ display: flex;
+ justify-content: center;
+ text-align: center;
 
  
 }
@@ -58,11 +89,11 @@ align-items: center;
   color: #45824b;
   border-radius: 10%;
  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
- width: 46%;
- margin-right: 1rem;
- height: 50vh;
+ width: auto;
+ 
+ height: auto;
 
- margin-bottom: 0;
+ margin: 0.5rem;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -76,23 +107,28 @@ align-items: center;
 color: #45824b;
   border-radius: 10%;
  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
- width: 46%;
+ width: auto;
  margin-bottom: 0;
- height: 50vh;
+ height: auto;
 display: flex;
  flex-direction: column;
  justify-content: center;
  align-text: left;
+ margin: 0.5rem;
 }
 
 .membership-cta{
- margin-top: 1rem; 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .membership-cta-btn{
-  background-color: white;
-  margin: 1rem;
-  color: black;
+  background-color: #2d4d31;
+margin: 0.5rem;
+  color: #f1f1f1;
+  font-size: 14px;
 }
 
 @media (max-width: 390px) {
@@ -114,9 +150,12 @@ align-items: center;
   border-radius: 20px;
  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
  width: auto;
- margin-bottom: 2rem;
+ 
  height: auto;
- margin-right: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .membership-plan-2{
@@ -131,14 +170,128 @@ color: #45824b;
 }
 
 .membership-cta{
- margin-top: 1rem; 
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .membership-cta-btn{
-  background-color: white;
-  margin: 1rem;
-  color: black;
+  background-color: #2d4d31;
+  font-size: 12px;
+  color: #f1f1f1;
 }
 
 
 }
+
+
+
+.mp1-heading{
+
+ font-size: 24px;
+ font-weight: 600;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center
+}
+
+.mp1-des{
+padding-left: 6rem;
+padding-right: 6rem;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ 
+}
+
+.mid{
+  width: 100%;
+  height:16px;
+  border-bottom: 1px solid green;
+ 
+}
+
+.mp1-point1{
+  padding: 1rem;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  
+
+}
+
+.mp1-point1-heading{
+ margin-block-end: 0;
+  margin-block-start: 0;
+ display: flex; 
+font-size: 2px;
+  font-weight: 900;
+  background-color: red;
+  margin: 0;
+  padding: 0;
+
+}
+
+.mp1-point1-des{
+
+}
+
+@media (max-width: 390px){
+
+.mp1-heading{
+
+ font-size: 24px;
+ font-weight: 600;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center
+}
+
+.mp1-des{
+padding-left: 1rem;
+padding-right: 1rem;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ 
+}
+
+.mid{
+  width: 100%;
+  height:16px;
+  border-bottom: 1px solid green;
+ 
+}
+
+.mp1-point1{
+  padding: 1rem;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  
+
+}
+
+.mp1-point1-heading{
+ margin-block-end: 0;
+  margin-block-start: 0;
+ display: flex; 
+font-size: 2px;
+  font-weight: 900;
+  background-color: red;
+  margin: 0;
+  padding: 0;
+
+}
+
+.mp1-point1-des{
+
+}
+
+} 

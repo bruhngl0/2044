@@ -33,12 +33,13 @@ const HeroSection = () => {
         {/* The source now correctly updates when the key changes */}
         <source src={videoSrc} type="video/mp4" />
       </video>
-
+      <div className="below-hero">
+        <p>More than a game. A way of living.</p>
+      </div>
       <div className="hero__overlay">
         <div className="hero__content">
-          <h1>TWENTY44</h1>
-          <p>More than a game. A way of living.</p>
-          <button className="hero__cta">Explore</button>
+          <h1></h1>
+          <p></p>
         </div>
       </div>
     </section>

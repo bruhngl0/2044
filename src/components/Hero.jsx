@@ -1,23 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/hero.scss";
 
 const HeroSection = () => {
+  const [videoSrc, setVideoSrc] = useState("atoo.mp4");
+
+  useEffect(() => {
+    const updateVideo = () => {
+      // Use the mobile-first video by default
+      if (window.innerWidth > 768) {
+        setVideoSrc("newvidoo.mp4"); // Desktop video
+      } else {
+        setVideoSrc("atoo.mp4"); // Mobile video
+      }
+    };
+
+    updateVideo();
+    window.addEventListener("resize", updateVideo);
+    return () => window.removeEventListener("resize", updateVideo);
+  }, []);
+
   return (
     <section className="hero">
       <video
+        key={videoSrc} // Helps React reliably update the video element
         className="hero__video"
         autoPlay
         loop
         muted
         playsInline
         poster="fallback.jpg"
-        style={{
-          width: "100vw",
-        }}
       >
-        <source src="newvidoo.mp4" type="video/mp4" />
-        <source src="newvidoo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+        {/* The source now correctly updates when the key changes */}
+        <source src={videoSrc} type="video/mp4" />
       </video>
 
       <div className="hero__overlay">

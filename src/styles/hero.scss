@@ -1,82 +1,82 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100vh; // Changed: Make the hero section fill the entire viewport height
   overflow: hidden;
+  color: #fff; // Moved color here for all text inside
+}
 
-  .hero__image {
-    width: 100%;
-    height: 100%;
-    display: block;
+.hero__video {
+  // Added: These styles are crucial for a background video
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
+ 
+ 
+  width: 100%;
+  height: 100%;
+  object-fit: cover; // Ensures video covers the area without distortion
+  z-index: -1; // Puts the video behind the overlay content
+}
+
+// This selector was ineffective and has been removed.
+// .hero-video-pb { ... }
+
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); // Subtle dark overlay
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__content {
+  z-index: 2; // Ensures content is on top
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+  }
+
+  .hero__cta {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: #000;
+      color: #fff;
     }
   }
+}
 
-  .hero__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4); // subtle dark overlay
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    
-  }
-
+// Your media query is fine and does not need changes.
+@media (max-width: 768px) {
   .hero__content {
-    z-index: 2;
-
     h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      margin-bottom: 0.5rem;
+      font-size: 2rem;
     }
-
     p {
-      font-size: 1.25rem;
-      margin-bottom: 1.5rem;
-      opacity: 0.9;
+      font-size: 1rem;
     }
-
     .hero__cta {
-      background: #fff;
-      color: #000;
-      border: none;
-      padding: 0.75rem 2rem;
-      border-radius: 50px;
-      cursor: pointer;
-      font-weight: 600;
-      transition: all 0.3s ease;
-
-      &:hover {
-        background: #000;
-        color: #fff;
-      }
-    }
-  }
-
-  @media (max-width: 768px) {
-    .hero__content {
-      h1 {
-        font-size: 2rem;
-      }
-      p {
-        font-size: 1rem;
-      }
-      .hero__cta {
-        padding: 0.6rem 1.5rem;
-      }
+      padding: 0.6rem 1.5rem;
     }
   }
 }

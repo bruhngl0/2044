@@ -19,7 +19,7 @@
   max-width: 800px;
   margin-bottom: 8rem;
   margin-top: 1rem;
- background: linear-gradient(to bottom, green 0%, #f1f1f1 140%);
+ background: linear-gradient(to bottom, #2d4d31 0%, #f1f1f1 140%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; /* Hides the solid text color */
@@ -90,7 +90,7 @@
 
   .about-button {
     padding: 1rem 1.5rem;
-    font-size: 12px;
+    font-size: 16px;
     background-color: #2d4d31;
     color: #f1f1f1;
     border: none;

@@ -43,8 +43,8 @@ const Waitlist2 = () => {
       <div className="waitlist2__header">
         <h1 className="waitlist2__title">MEMBERSHIP WAITLIST APPLICATION</h1>
         <p className="waitlist2__subtitle">
-          I hereby apply for a membership to Reserve. If accepted, I agree to be
-          bound by the rules and regulations set forth to me by Reserve.
+          I hereby apply for a membership to Twenty44. If accepted, I agree to
+          be bound by the rules and regulations set forth to me by Twenty44.
         </p>
       </div>
 

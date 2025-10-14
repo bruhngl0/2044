@@ -52,7 +52,9 @@ export const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <p>Copyright 2025 @Twenty44.in</p>
+            <a href="#" className="footer-link">
+              Copyright 2025 @Twenty44.in
+            </a>
           </div>
         </div>
       </footer>

@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="about-container">
-      <h1 style={{ fontSize: "24px" }}>TWENTY44</h1>
+      <h1 style={{ fontSize: "24px", color: "#2d4d31", paddingBottom: "2rem" }}>
+        TWENTY44
+      </h1>
       <p className="about-main-text">
         From the lines of a court, we’ve built something larger than sport.
         Twenty44 is a members-only world where movement meets community, where

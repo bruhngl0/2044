@@ -22,58 +22,84 @@ const Membership = () => {
         </div>
 
         <div className="mem-img">
-          <picture>
-            <source srcSet="" media="(max-width: 768px)" />
-            <source srcSet="442-pc.jpg" media="(min-width: 769px)" />
-            <img src="/images/desktop.jpg" alt="Memory" />
-          </picture>
+          <img src="pop1.jpg" />
         </div>
 
         <div className="membership-plan">
           <div className="membership-plan-1">
-            <p className="mp1-heading">THE ORIGIN MEMBERSHIP</p>
+            <p className="mp1-heading">THE TWENTY MEMBERSHIP</p>
             <p className="mp1-des">
-              Where it all begins. The Origin membership is your entry point
-              into our world, designed for those who want to belong , connect,
-              and experience the essence of what we stand for. It’s the
-              foundation that unlocks access, privileges, and curated moments
-              that set you apart.
+              <h1 style={{ fontSize: "16px" }}> 20 Credits Included</h1>{" "}
+              <ul>
+                <li>1 Credit can be used for Pickleball sessions</li>
+                <li>1.5 Credits can be used for Padel sessions</li>
+                <li>Redeemable at any Twenty44 Centre across India</li>
+              </ul>
             </p>
             <div className="mid"></div>
             <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">
+                Access to Member-Only Events & Socials
+              </p>
               <p className="mp1-point1-des">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
+                Enjoy exclusive invites to curated gatherings, mixers, and
+                socials hosted across our clubs.
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">
+                Recovery & Wellness Access at Partner Hotels
+              </p>
               <p className="mp1-point1-des">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
+                Gain preferred access to recovery zones, spas, and wellness
+                facilities at our partner hotels.
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">
+                Dining Savings at Partner Restaurants & Cafés
+              </p>
               <p className="mp1-point1-des">
                 {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
+                Enjoy special member rates and priority access across our
+                partner restaurants and cafés.
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">
+                Priority Booking (2 Weeks) & Access to Certified Coaches
+              </p>
               <p className="mp1-point1-des">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
+                Book courts and training sessions up to two weeks in advance and
+                connect with certified coaches.
+              </p>
+            </div>
+
+            <div className="mp1-point1">
+              <p className="mp1-point1-heading">
+                Early Access to Apparel Drops
+              </p>
+              <p className="mp1-point1-des">
+                Be the first to access new Twenty44 collections, collaborations,
+                and limited releases.
+              </p>
+            </div>
+
+            <div className="mp1-point1">
+              <p className="mp1-point1-heading">Extra Credits at 10% Off</p>
+              <p className="mp1-point1-des">
+                Purchase additional play credits at an exclusive 10% member
+                discount.
+              </p>
+            </div>
+
+            <div className="mp1-point1">
+              <p className="mp1-point1-heading">
+                Welcome Box + Membership Card
+              </p>
+              <p className="mp1-point1-des">
+                Receive a personalized membership card and a curated welcome box
+                to begin your journey.
               </p>
             </div>
 
@@ -85,52 +111,82 @@ const Membership = () => {
           </div>
 
           <div className="membership-plan-1">
-            <p className="mp1-heading">THE APEX MEMBERSHIP</p>
+            <p className="mp1-heading">THE FORTY FOUR MEMBERSHIP</p>
             <p className="mp1-des">
-              Where it all begins. The Origin membership is your entry point
-              into our world, designed for those who want to belong , connect,
-              and experience the essence of what we stand for. It’s the
-              foundation that unlocks access, privileges, and curated moments
-              that set you apart.
+              <h1 style={{ fontSize: "16px" }}> 44 Credits Included</h1>{" "}
+              <ul>
+                <li>1 Credit can be used for Pickleball sessions</li>
+                <li>1.5 Credits can be used for Padel sessions</li>
+                <li>Redeemable at any Twenty44 Centre across India</li>
+              </ul>
             </p>
             <div className="mid"></div>
+            <div className="mp1-point1">
+              <p className="mp1-point1-heading">
+                Access to Member-Only Events & Socials
+              </p>
+              <p className="mp1-point1-des">
+                Enjoy exclusive invites to curated gatherings, mixers, and
+                socials hosted across our clubs.
+              </p>
+            </div>
+            <div className="mp1-point1">
+              <p className="mp1-point1-heading">
+                Recovery & Wellness Access at Partner Hotels
+              </p>
+              <p className="mp1-point1-des">
+                Gain preferred access to recovery zones, spas, and wellness
+                facilities at our partner hotels.
+              </p>
+            </div>
+            <div className="mp1-point1">
+              <p className="mp1-point1-heading">
+                Dining Savings at Partner Restaurants & Cafés
+              </p>
+              <p className="mp1-point1-des">
+                {" "}
+                Enjoy special member rates and priority access across our
+                partner restaurants and cafés.
+              </p>
+            </div>
+            <div className="mp1-point1">
+              <p className="mp1-point1-heading">
+                Priority Booking (2 Weeks) & Access to Certified Coaches
+              </p>
+              <p className="mp1-point1-des">
+                Book courts and training sessions up to two weeks in advance and
+                connect with certified coaches.
+              </p>
+            </div>
 
             <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">
+                Early Access to Apparel Drops
+              </p>
               <p className="mp1-point1-des">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
+                Be the first to access new Twenty44 collections, collaborations,
+                and limited releases.
               </p>
             </div>
+
             <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">Extra Credits at 20% Off</p>
               <p className="mp1-point1-des">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
+                Purchase additional play credits at an exclusive 20% member
+                discount.
               </p>
             </div>
+
             <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">
+                Exclusive Welcome Package + Invite Letter
+              </p>
               <p className="mp1-point1-des">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
+                Receive a bespoke welcome package and a personal invite letter
+                marking your membership.
               </p>
             </div>
-            <div className="mp1-point1">
-              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
-              <p className="mp1-point1-des">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a{" "}
-              </p>
-            </div>
+
             <div className="membership-cta">
               <Link to="/waitlist2">
                 <button className="membership-cta-btn">APPLY NOW</button>

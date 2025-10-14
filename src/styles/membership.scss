@@ -38,6 +38,16 @@
   text-align: center;
 }
 
+.mem-img{
+
+  width: 100%;
+
+>img{
+  width: 100%;
+  object-fit: cover;
+}
+
+}
 .membership-content-1{
 
   display: flex;
@@ -255,9 +265,21 @@ padding-right: 1rem;
 font-size: 12px;
 
  display: flex;
+ flex-direction: column;
  justify-content: center;
- align-items: center;
- text-align: center;
+ align-items: start;
+ text-align: start;
+
+
+ >ul{
+   padding: 0;
+   margin: 0;
+   text-align: start;
+
+   >li{
+     
+   }
+ }
  
 }
 

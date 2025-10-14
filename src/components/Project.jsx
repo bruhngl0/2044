@@ -135,6 +135,7 @@ align-items: start;
 
 .footer-content-1 {
   width: 100vw;
+
   margin: 0 auto;
   display: flex;
 flex-direction: column;
@@ -206,7 +207,7 @@ margin-bottom: 2rem;
     height: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
-  .footer-content {
+  .footer-content-1 {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
@@ -259,7 +260,7 @@ const projects = [
     description: "",
     name: "EXPLORE BIG PLANTERS ↗",
     image: "party1.jpg",
-    backgroundImageMobile: "441-mob.jpg",
+    backgroundImageMobile: "pop2.jpg",
     backgroundImagePc: "441-pc.jpg",
     description1: "@STUDIO MASON",
     route: "/",
@@ -404,8 +405,11 @@ const Project = () => {
                   <a href="#refund" className="footer-link">
                     Refund and Cancellation Policy
                   </a>
-
-                  <p>Copyright 2025@ Twenty44.in</p>
+                </div>
+                <div className="footer-section">
+                  <a href="#" className="footer-link">
+                    Copyright 2025@ Twenty44.in
+                  </a>
                 </div>
               </div>
             </footer>

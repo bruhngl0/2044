@@ -1,15 +1,16 @@
 .about-container {
   width: 100vw;
   height: auto;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+ 
+
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #2d4d31;
+  background-color: #f1f1f1;
+
 }
 
 .about-main-text {
@@ -17,11 +18,11 @@
   line-height: 1.2;
   max-width: 800px;
   margin-bottom: 8rem;
-  margin-top: 4rem;
-  background: linear-gradient(to bottom, gray 0%, #ffffff 100%);
+  margin-top: 1rem;
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color: #2d4d31;
+
 }
 
 .about-button {
@@ -57,6 +58,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+   
 }
 
   }
@@ -81,8 +83,8 @@
   .about-button {
     padding: 1rem 1.5rem;
     font-size: 12px;
-    background-color: #f1f1f1;
-    color: #2d4d31;
+    background-color: #2d4d31;
+    color: #f1f1f1;
     border: none;
     border-radius: 50px;
     cursor: pointer;

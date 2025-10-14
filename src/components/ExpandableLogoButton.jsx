@@ -18,7 +18,7 @@ export default function ExpandableLogoButton() {
             className="logo-button-collapsed"
           >
             <div className="logo-circle">
-              <img src="gang.png" style={{ width: "80px" }} />
+              <img src="gang.png" style={{ width: "80px", marginTop: "7px" }} />
             </div>
           </button>
         )}

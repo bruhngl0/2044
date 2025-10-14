@@ -43,8 +43,8 @@ const Waitlist2 = () => {
       <div className="waitlist2__header">
         <h1 className="waitlist2__title">MEMBERSHIP WAITLIST APPLICATION</h1>
         <p className="waitlist2__subtitle">
-          I hereby apply for a membership to Twenty44. If accepted, I agree to
-          be bound by the rules and regulations set forth to me by Twenty44.
+          I hereby apply for a membership to Twenty 44. If accepted, I agree to
+          be bound by the rules and regulations set forth to me by Twenty 44.
         </p>
       </div>
 
@@ -117,7 +117,7 @@ const Waitlist2 = () => {
                   />
                 </div>
                 <div className="waitlist2__field">
-                  <label className="waitlist2__label">Instagram *</label>
+                  <label className="waitlist2__label">LinkedIn *</label>
                   <input
                     type="tel"
                     name="Instagram"
@@ -134,7 +134,7 @@ const Waitlist2 = () => {
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">
-                    Why do you want to join Twenty44?
+                    Why do you want to join Twenty 44? *
                   </label>
                   <input
                     type="text"
@@ -150,7 +150,7 @@ const Waitlist2 = () => {
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">
-                    What do you expect from your experience at Twenty44?{" "}
+                    What do you expect from your experience at Twenty 44? *{" "}
                   </label>
                   <input
                     type="text"
@@ -167,7 +167,7 @@ const Waitlist2 = () => {
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">
                     How would you describe the lifestyle you’re looking to build
-                    with Twenty44?{" "}
+                    with Twenty 44? *{" "}
                   </label>
                   <input
                     type="text"
@@ -239,14 +239,14 @@ const Waitlist2 = () => {
                   required
                 >
                   <option value="">Select a membership type</option>
-                  <option value="individual">The Origin Membership</option>
-                  <option value="family">The Apex Membership</option>
+                  <option value="individual">The Twenty Membership</option>
+                  <option value="family">The Forty Four Membership</option>
                 </select>
               </div>
 
               <div className="waitlist2__field waitlist2__field--full">
                 <label className="waitlist2__label">
-                  How did you hear about us?
+                  How did you hear about us? *
                 </label>
                 <input
                   type="text"

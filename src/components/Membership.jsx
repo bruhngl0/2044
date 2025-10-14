@@ -10,14 +10,14 @@ const Membership = () => {
       <ExpandableLogoButton />
       <div className="membership-main">
         <div className="membership-content">
-          <p className="membership-content-1">TWENTY44 MEMBERSHIPS</p>
+          <p className="membership-content-1">TWENTY 44 MEMBERSHIPS</p>
           <p className="membership-content-2">
-            The Twenty44 Membership is your gateway into a world where sport,
+            The Twenty 44 Membership is your gateway into a world where sport,
             lifestyle, and community come together with intention. Designed for
             those who seek more than access, it offers a sense of belonging to
             something rare and elevated. As a member, you don’t just play, you
             experience curated moments, priority access, and exclusive
-            privileges that reflect the spirit of Twenty44.
+            privileges that reflect the spirit of Twenty 44.
           </p>
         </div>
 
@@ -28,6 +28,13 @@ const Membership = () => {
         <div className="membership-plan">
           <div className="membership-plan-1">
             <p className="mp1-heading">THE TWENTY MEMBERSHIP</p>
+            <p className="mp1-des1">
+              Where it all begins. The Twenty membership is your entry point
+              into our world, designed for those who want to belong, connect,
+              and experience the essence of what we stand for. It’s the
+              foundation that unlocks access, privileges, and curated moments
+              that set you apart.
+            </p>
             <p className="mp1-des">
               <h1 style={{ fontSize: "16px" }}> 20 Credits Included</h1>{" "}
               <ul>
@@ -112,6 +119,14 @@ const Membership = () => {
 
           <div className="membership-plan-1">
             <p className="mp1-heading">THE FORTY FOUR MEMBERSHIP</p>
+            <p className="mp1-des1">
+              The summit of belonging. The Fourty Four Membership is crafted for
+              those who want it all. Exclusive access, elevated perks, and
+              priority at every touchpoint, it’s the tier where every detail is
+              fine-tuned for you. This is not just membership, it’s arriving at
+              the top.
+            </p>
+
             <p className="mp1-des">
               <h1 style={{ fontSize: "16px" }}> 44 Credits Included</h1>{" "}
               <ul>

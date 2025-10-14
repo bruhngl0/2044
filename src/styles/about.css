@@ -2,7 +2,7 @@
   width: 100vw;
   height: auto;
  
-
+ padding-bottom: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -19,9 +19,17 @@
   max-width: 800px;
   margin-bottom: 8rem;
   margin-top: 1rem;
+ background: linear-gradient(to bottom, green 0%, #f1f1f1 140%);
   -webkit-background-clip: text;
   background-clip: text;
-  color: #2d4d31;
+  color: transparent; /* Hides the solid text color */
+  -webkit-text-fill-color: transparent; /* For Safari *//* change colors as needed */
+  background: 
+  -webkit-background-clip: text;
+  background-clip: text;
+
+ 
+  
 
 }
 

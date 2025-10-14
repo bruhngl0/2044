@@ -35,6 +35,7 @@ const Membership = () => {
               foundation that unlocks access, privileges, and curated moments
               that set you apart.
             </p>
+            <div className="mid"></div>
             <p className="mp1-des">
               <h1 style={{ fontSize: "16px" }}> 20 Credits Included</h1>{" "}
               <ul>
@@ -43,7 +44,7 @@ const Membership = () => {
                 <li>Redeemable at any Twenty44 Centre across India</li>
               </ul>
             </p>
-            <div className="mid"></div>
+
             <div className="mp1-point1">
               <p className="mp1-point1-heading">
                 Access to Member-Only Events & Socials
@@ -126,7 +127,7 @@ const Membership = () => {
               fine-tuned for you. This is not just membership, it’s arriving at
               the top.
             </p>
-
+            <div className="mid"></div>
             <p className="mp1-des">
               <h1 style={{ fontSize: "16px" }}> 44 Credits Included</h1>{" "}
               <ul>
@@ -135,7 +136,7 @@ const Membership = () => {
                 <li>Redeemable at any Twenty44 Centre across India</li>
               </ul>
             </p>
-            <div className="mid"></div>
+
             <div className="mp1-point1">
               <p className="mp1-point1-heading">
                 Access to Member-Only Events & Socials

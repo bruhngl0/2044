@@ -62,14 +62,14 @@ padding-block: 0px;
 
 select:focus {
   outline: none;
-  border: 2px solid #8b5e3c; /* Custom brown-ish border */
-  box-shadow: 0 0 0 2px rgba(139, 94, 60, 0.3); /* Optional glow */
+  border: 2px solid #2d4d31; /* Custom brown-ish border */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3); /* Optional glow */
 }
 
 input:focus {
   outline: none;
-  border: 1px solid #8b5e3c; /* Custom brown-ish border */
-  box-shadow: 0 0 0 2px rgba(139, 94, 60, 0.3); /* Optional glow */
+  border: 1px solid #2d4d31; /* Custom brown-ish border */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); /* Optional glow */
 }
 
 input::placeholder {

@@ -2,21 +2,23 @@ import React, { useState } from "react";
 import "../styles/waitlist2.scss";
 import { Footer } from "./Footer";
 import ExpandableLogoButton from "./ExpandableLogoButton";
+import { Instagram } from "lucide-react";
 
 const Waitlist2 = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    address: "",
-    email: "",
-    phone: "",
-    birthdate: "",
-    profession: "",
-    company: "",
-    linkedInUrl: "",
-    location: "",
-    member: "",
-    values: "",
-    referredBy: "",
+    Name: "",
+    Email: "",
+    Phone: "",
+    Birthdate: "",
+    Profession: "",
+    Instagram: "",
+    Ques1: "",
+    Ques2: "",
+    Ques3: "",
+    Topsize: "",
+    Bottomsize: "",
+    Membership: "",
+    ReferredBy: "",
     agreement: false,
   });
 
@@ -37,93 +39,89 @@ const Waitlist2 = () => {
   return (
     <div className="waitlist2-main">
       <ExpandableLogoButton />
+
+      <div className="waitlist2__header">
+        <h1 className="waitlist2__title">MEMBERSHIP WAITLIST APPLICATION</h1>
+        <p className="waitlist2__subtitle">
+          I hereby apply for a membership to Reserve. If accepted, I agree to be
+          bound by the rules and regulations set forth to me by Reserve.
+        </p>
+      </div>
+
       <div className="waitlist2">
         <div className="waitlist2__container">
-          <div className="waitlist2__header">
-            <h1 className="waitlist2__title">MEMBERSHIP APPLICATION</h1>
-            <p className="waitlist2__subtitle">
-              I hereby apply for a membership to Reserve. If accepted, I agree
-              to be bound by the rules and regulations set forth to me by
-              Reserve.
-            </p>
-            <p className="waitlist2__notice">
-              All sections must be completed in order for this application to be
-              accepted.
-            </p>
-          </div>
-
           <div className="waitlist2__form">
             <div className="waitlist2__section">
               <h2 className="waitlist2__section-title">PERSONAL INFORMATION</h2>
 
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
-                  <label className="waitlist2__label">First Name *</label>
+                  <label className="waitlist2__label">Full Name *</label>
                   <input
                     type="text"
                     name="Name"
-                    value={formData.name}
+                    value={formData.Name}
                     onChange={handleChange}
                     className="waitlist2__input"
                     required
                   />
                 </div>
-                <div className="waitlist2__field">
-                  <label className="waitlist2__label">Address *</label>
-                  <input
-                    type="text"
-                    name="Address"
-                    value={formData.address}
-                    onChange={handleChange}
-                    className="waitlist2__input"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">Email *</label>
                   <input
                     type="text"
-                    name="Name"
-                    value={formData.email}
+                    name="Email"
+                    value={formData.Email}
                     onChange={handleChange}
                     className="waitlist2__input"
                     required
                   />
                 </div>
+              </div>
+
+              <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">Phone *</label>
                   <input
                     type="text"
-                    name="Address"
-                    value={formData.phone}
+                    name="Phone"
+                    value={formData.Phone}
                     onChange={handleChange}
                     className="waitlist2__input"
                     required
                   />
                 </div>
-              </div>
-
-              <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">Birthdate *</label>
                   <input
+                    type="text"
+                    name="Birthdate"
+                    value={formData.Birthdate}
+                    onChange={handleChange}
+                    className="waitlist2__input"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="waitlist2__row">
+                <div className="waitlist2__field">
+                  <label className="waitlist2__label">Profession *</label>
+                  <input
                     type="email"
-                    name="email"
-                    value={formData.birthdate}
+                    name="Profession"
+                    value={formData.Profession}
                     onChange={handleChange}
                     className="waitlist2__input"
                     required
                   />
                 </div>
                 <div className="waitlist2__field">
-                  <label className="waitlist2__label">profession *</label>
+                  <label className="waitlist2__label">Instagram *</label>
                   <input
                     type="tel"
-                    name="phone"
-                    value={formData.profession}
+                    name="Instagram"
+                    value={formData.Instagram}
                     onChange={handleChange}
                     className="waitlist2__input"
                     required
@@ -133,39 +131,15 @@ const Waitlist2 = () => {
             </div>
 
             <div className="waitlist2__section">
-              <div className="waitlist2__field waitlist2__field--full">
-                <label className="waitlist2__label">Company *</label>
-                <input
-                  type="text"
-                  name="address"
-                  value={formData.company}
-                  onChange={handleChange}
-                  className="waitlist2__input"
-                  required
-                />
-              </div>
-
-              <div className="waitlist2__field waitlist2__field--full">
-                <label className="waitlist2__label">linkedIn *</label>
-                <input
-                  type="text"
-                  name="address"
-                  value={formData.linkedInUrl}
-                  onChange={handleChange}
-                  className="waitlist2__input"
-                  required
-                />
-              </div>
-
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">
-                    Why are you intrested in becoming a member *
+                    Why do you want to join Twenty44?
                   </label>
                   <input
                     type="text"
-                    name="city"
-                    value={formData.me}
+                    name="Ques1"
+                    value={formData.Ques1}
                     onChange={handleChange}
                     className="waitlist2__input-big"
                     required
@@ -176,12 +150,29 @@ const Waitlist2 = () => {
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">
-                    Why are you intrested in becoming a member *
+                    What do you expect from your experience at Twenty44?{" "}
                   </label>
                   <input
                     type="text"
-                    name="city"
-                    value={formData.me}
+                    name="Ques2"
+                    value={formData.Ques2}
+                    onChange={handleChange}
+                    className="waitlist2__input-big"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="waitlist2__row">
+                <div className="waitlist2__field">
+                  <label className="waitlist2__label">
+                    How would you describe the lifestyle you’re looking to build
+                    with Twenty44?{" "}
+                  </label>
+                  <input
+                    type="text"
+                    name="Ques3"
+                    value={formData.Ques3}
                     onChange={handleChange}
                     className="waitlist2__input-big"
                     required
@@ -191,30 +182,44 @@ const Waitlist2 = () => {
             </div>
 
             <div className="waitlist2__section">
-              <h2 className="waitlist2__section-title">EMERGENCY CONTACT</h2>
+              <h2 className="waitlist2__section-title">APPAREL SIZING</h2>
 
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
-                  <label className="waitlist2__label">Contact Name *</label>
-                  <input
-                    type="text"
-                    name="emergencyContact"
-                    value={formData.emergencyContact}
+                  <label className="waitlist2__label">Top Size *</label>
+                  <select
+                    name="Topsize"
+                    value={formData.Topsize}
                     onChange={handleChange}
-                    className="waitlist2__input"
+                    className="waitlist2__select"
                     required
-                  />
+                  >
+                    <option value="">Select size</option>
+                    <option value="individual">XXL</option>
+                    <option value="family">XL</option>
+                    <option value="corporate">L</option>
+                    <option value="individual">M</option>
+                    <option value="family">S</option>
+                    <option value="corporate">XS</option>
+                  </select>
                 </div>
                 <div className="waitlist2__field">
-                  <label className="waitlist2__label">Contact Phone *</label>
-                  <input
-                    type="tel"
-                    name="emergencyPhone"
-                    value={formData.emergencyPhone}
+                  <label className="waitlist2__label">Bottom Size *</label>
+                  <select
+                    name="Bottomsize"
+                    value={formData.Bottomsize}
                     onChange={handleChange}
-                    className="waitlist2__input"
+                    className="waitlist2__select"
                     required
-                  />
+                  >
+                    <option value="">Select size</option>
+                    <option value="individual">XXL</option>
+                    <option value="family">XL</option>
+                    <option value="corporate">L</option>
+                    <option value="individual">M</option>
+                    <option value="family">S</option>
+                    <option value="corporate">XS</option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -227,16 +232,15 @@ const Waitlist2 = () => {
                   Preferred Membership Type *
                 </label>
                 <select
-                  name="membershipType"
-                  value={formData.membershipType}
+                  name="Membership"
+                  value={formData.Membership}
                   onChange={handleChange}
                   className="waitlist2__select"
                   required
                 >
                   <option value="">Select a membership type</option>
-                  <option value="individual">Individual Membership</option>
-                  <option value="family">Family Membership</option>
-                  <option value="corporate">Corporate Membership</option>
+                  <option value="individual">The Origin Membership</option>
+                  <option value="family">The Apex Membership</option>
                 </select>
               </div>
 
@@ -246,8 +250,8 @@ const Waitlist2 = () => {
                 </label>
                 <input
                   type="text"
-                  name="referredBy"
-                  value={formData.referredBy}
+                  name="ReferredBy"
+                  value={formData.ReferredBy}
                   onChange={handleChange}
                   className="waitlist2__input"
                 />

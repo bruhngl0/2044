@@ -7,19 +7,17 @@ import Logowhite from "./Logowhite";
 const Membership = () => {
   return (
     <div>
-      <Logowhite />
+      <ExpandableLogoButton />
       <div className="membership-main">
         <div className="membership-content">
-          <p className="membership-content-1">TWENTY44 MEMBERSHIP</p>
+          <p className="membership-content-1">TWENTY44 MEMBERSHIPS</p>
           <p className="membership-content-2">
             The Twenty44 Membership is your gateway into a world where sport,
-            lifestyle, and community
-            <br /> come together with intention. Designed for those who seek
-            more than access, it offers a sense of belonging to
-            <br />
+            lifestyle, and community come together with intention. Designed for
+            those who seek more than access, it offers a sense of belonging to
             something rare and elevated. As a member, you don’t just play, you
-            experience curated moments, priority access, and
-            <br /> exclusive privileges that reflect the spirit of Twenty44.
+            experience curated moments, priority access, and exclusive
+            privileges that reflect the spirit of Twenty44.
           </p>
         </div>
 
@@ -43,7 +41,7 @@ const Membership = () => {
             </p>
             <div className="mid"></div>
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -52,7 +50,7 @@ const Membership = () => {
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -61,7 +59,7 @@ const Membership = () => {
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -70,7 +68,7 @@ const Membership = () => {
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -81,10 +79,7 @@ const Membership = () => {
 
             <div className="membership-cta">
               <Link to="/waitlist2">
-                <button className="membership-cta-btn">APPLY</button>
-              </Link>
-              <Link>
-                <button className="membership-cta-btn">BOOK A COURT</button>
+                <button className="membership-cta-btn">APPLY NOW</button>
               </Link>
             </div>
           </div>
@@ -101,7 +96,7 @@ const Membership = () => {
             <div className="mid"></div>
 
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -110,7 +105,7 @@ const Membership = () => {
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -119,7 +114,7 @@ const Membership = () => {
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -128,7 +123,7 @@ const Membership = () => {
               </p>
             </div>
             <div className="mp1-point1">
-              <p className="mp1-ponit1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
+              <p className="mp1-point1-heading">ACCESS TO MEMBER ONLY CLUBS</p>
               <p className="mp1-point1-des">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -138,10 +133,7 @@ const Membership = () => {
             </div>
             <div className="membership-cta">
               <Link to="/waitlist2">
-                <button className="membership-cta-btn">APPLY</button>
-              </Link>
-              <Link>
-                <button className="membership-cta-btn">BOOK A COURT</button>
+                <button className="membership-cta-btn">APPLY NOW</button>
               </Link>
             </div>
           </div>

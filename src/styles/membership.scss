@@ -45,7 +45,7 @@
   justify-content: center;
   align-items: center;
 padding: 1rem; 
-font-size: 44px;
+font-size: 24px;
 font-weight: 600;
 margin-top: 10rem;
 margin-bottom: 0;
@@ -57,7 +57,8 @@ margin-bottom: 0;
  padding: 1rem;
  padding-top: 0;
  align-text: center;
- width: 85vw;
+ width: 90vw;
+ font-size: 12px;
  display: flex;
  justify-content: center;
  text-align: center;
@@ -131,7 +132,7 @@ margin: 0.5rem;
   font-size: 14px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
 .membership-plan{
 padding: 1rem;
 
@@ -190,7 +191,7 @@ color: #45824b;
 
 .mp1-heading{
 
- font-size: 24px;
+ font-size: 14px;
  font-weight: 600;
  display: flex;
  justify-content: center;
@@ -225,26 +226,22 @@ padding-right: 6rem;
 }
 
 .mp1-point1-heading{
- margin-block-end: 0;
-  margin-block-start: 0;
- display: flex; 
-font-size: 2px;
-  font-weight: 900;
-  background-color: red;
-  margin: 0;
-  padding: 0;
+ 
+font-size: 16px;
+font-weight: 600;
+ 
 
 }
 
 .mp1-point1-des{
-
+font-size: 12px;
 }
 
-@media (max-width: 390px){
+@media (max-width: 430px){
 
 .mp1-heading{
 
- font-size: 24px;
+ font-size: 20px;
  font-weight: 600;
  display: flex;
  justify-content: center;
@@ -255,6 +252,7 @@ font-size: 2px;
 .mp1-des{
 padding-left: 1rem;
 padding-right: 1rem;
+font-size: 12px;
 
  display: flex;
  justify-content: center;
@@ -279,14 +277,11 @@ padding-right: 1rem;
 }
 
 .mp1-point1-heading{
- margin-block-end: 0;
-  margin-block-start: 0;
+
  display: flex; 
-font-size: 2px;
-  font-weight: 900;
-  background-color: red;
-  margin: 0;
-  padding: 0;
+font-size: 12px;
+
+
 
 }
 

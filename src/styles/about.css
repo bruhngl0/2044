@@ -1,13 +1,15 @@
 .about-container {
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #2d4d31;
 }
 
 .about-main-text {
@@ -16,7 +18,7 @@
   max-width: 800px;
   margin-bottom: 8rem;
   margin-top: 4rem;
-  background: linear-gradient(to bottom, green 0%, #2d4d31 100%);
+  background: linear-gradient(to bottom, gray 0%, #ffffff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -25,8 +27,8 @@
 .about-button {
   padding: 1rem 2.5rem;
   font-size: 2rem;
-  background-color: #2d4d31;
-  color: white;
+  background-color: #f1f1f1;
+  color: #2d4d31;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -78,9 +80,9 @@
 
   .about-button {
     padding: 1rem 1.5rem;
-    font-size: 18px;
-    background-color: #2d4d31;
-    color: #f1f1f1;
+    font-size: 12px;
+    background-color: #f1f1f1;
+    color: #2d4d31;
     border: none;
     border-radius: 50px;
     cursor: pointer;

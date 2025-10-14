@@ -50,6 +50,10 @@ export const Footer = () => {
               Refund and Cancellation Policy
             </a>
           </div>
+
+          <div className="footer-section">
+            <p>Copyright 2025 @Twenty44.in</p>
+          </div>
         </div>
       </footer>
     </div>

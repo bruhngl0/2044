@@ -111,19 +111,18 @@ const styles = `
 }
 
 /* Footer Styles */
-.card-footer {
+.card-footer-1 {
  
   background-color: transparent;
 
-height: 55vh;
-width: 90vw;
+height: 58vh;
+width: 100vw;
 
 
 flex-direction: column;
 justify-content: start;
 align-items: start;
 
-  padding: 2rem 1rem;
   opacity: 1;
   transform: translateY(20px);
   transition: opacity 0.8s ease 0.3s, transform 0.8s ease 0.3s;
@@ -134,8 +133,8 @@ align-items: start;
   transform: translateY(0);
 }
 
-.footer-content {
-  max-width: 1200px;
+.footer-content-1 {
+  width: 100vw;
   margin: 0 auto;
   display: flex;
 flex-direction: column;
@@ -359,8 +358,8 @@ const Project = () => {
           </a>
 
           {project.hasFooter && (
-            <footer className="card-footer">
-              <div className="footer-content">
+            <footer className="card-footer-1">
+              <div className="footer-content-1">
                 <div className="footer-section">
                   <a href="#court-booking" className="footer-link">
                     Court Booking
@@ -405,6 +404,8 @@ const Project = () => {
                   <a href="#refund" className="footer-link">
                     Refund and Cancellation Policy
                   </a>
+
+                  <p>Copyright 2025@ Twenty44.in</p>
                 </div>
               </div>
             </footer>

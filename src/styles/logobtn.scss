@@ -16,6 +16,7 @@
   transform: translateX(-50%);
   z-index: 100;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  
 
 
 
@@ -48,8 +49,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../../public/2044.svg");
-  background-color:   #2d4d31;
+  background-image: url("../../public/gang.png");
+  background-color:   #f1f1f1;
 
   &:hover {
     transform: scale(1.1);
@@ -69,7 +70,7 @@
 
 // Expanded Content
 .expanded-content {
-  background: white;
+  background-color: #2d4d31;
   border-radius: 1.25rem;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -94,7 +95,7 @@
 
 // Menu Header
 .menu-header {
-  background: #45824b; 
+  background: #2d4d31; 
   padding: 0;
   display: flex;
   align-items: center;

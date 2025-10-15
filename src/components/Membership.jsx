@@ -2,7 +2,6 @@ import "../styles/membership.scss";
 import { Link } from "react-router-dom";
 import ExpandableLogoButton from "./ExpandableLogoButton";
 import { Footer } from "./Footer";
-import Logowhite from "./Logowhite";
 
 const Membership = () => {
   return (
@@ -41,7 +40,7 @@ const Membership = () => {
               <ul>
                 <li>1 Credit can be used for Pickleball sessions</li>
                 <li>1.5 Credits can be used for Padel sessions</li>
-                <li>Redeemable at any Twenty44 Centre across India</li>
+                <li>Redeemable at any Twenty 44 Centre across India</li>
               </ul>
             </p>
 
@@ -88,8 +87,8 @@ const Membership = () => {
                 Early Access to Apparel Drops
               </p>
               <p className="mp1-point1-des">
-                Be the first to access new Twenty44 collections, collaborations,
-                and limited releases.
+                Be the first to access new Twenty 44 collections,
+                collaborations, and limited releases.
               </p>
             </div>
 
@@ -133,7 +132,7 @@ const Membership = () => {
               <ul>
                 <li>1 Credit can be used for Pickleball sessions</li>
                 <li>1.5 Credits can be used for Padel sessions</li>
-                <li>Redeemable at any Twenty44 Centre across India</li>
+                <li>Redeemable at any Twenty 44 Centre across India</li>
               </ul>
             </p>
 
@@ -180,8 +179,8 @@ const Membership = () => {
                 Early Access to Apparel Drops
               </p>
               <p className="mp1-point1-des">
-                Be the first to access new Twenty44 collections, collaborations,
-                and limited releases.
+                Be the first to access new Twenty 44 collections,
+                collaborations, and limited releases.
               </p>
             </div>
 

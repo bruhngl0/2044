@@ -195,12 +195,12 @@ const Waitlist2 = () => {
                     required
                   >
                     <option value="">Select size</option>
-                    <option value="individual">XXL</option>
-                    <option value="family">XL</option>
-                    <option value="corporate">L</option>
-                    <option value="individual">M</option>
-                    <option value="family">S</option>
-                    <option value="corporate">XS</option>
+                    <option value="XXL">XXL</option>
+                    <option value="XL">XL</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="S">S</option>
+                    <option value="XS">XS</option>
                   </select>
                 </div>
                 <div className="waitlist2__field">
@@ -213,12 +213,12 @@ const Waitlist2 = () => {
                     required
                   >
                     <option value="">Select size</option>
-                    <option value="individual">XXL</option>
-                    <option value="family">XL</option>
-                    <option value="corporate">L</option>
-                    <option value="individual">M</option>
-                    <option value="family">S</option>
-                    <option value="corporate">XS</option>
+                    <option value="XXL">XXL</option>
+                    <option value="XL">XL</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="S">S</option>
+                    <option value="XS">XS</option>
                   </select>
                 </div>
               </div>

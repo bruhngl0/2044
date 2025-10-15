@@ -40,12 +40,8 @@ export default function ExpandableLogoButton() {
                 }}
                 className="menu-option"
               >
-                <div className="option-icon booking-icon">
-                  <Calendar size={20} />
-                </div>
                 <div className="option-text">
-                  <div className="option-title">Book a court</div>
-                  <div className="option-subtitle">Break a sweat</div>
+                  <div className="option-title">BOOK A COURT</div>
                 </div>
               </button>
 
@@ -56,12 +52,8 @@ export default function ExpandableLogoButton() {
                 }}
                 className="menu-option"
               >
-                <div className="option-icon member-icon">
-                  <User size={20} />
-                </div>
                 <div className="option-text">
-                  <div className="option-title">Request an invite</div>
-                  <div className="option-subtitle">Discover membership</div>
+                  <div className="option-title">DISCOVER MEMBERSHIP</div>
                 </div>
               </button>
             </div>

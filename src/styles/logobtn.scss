@@ -138,10 +138,12 @@
 
 // Menu Options
 .menu-options {
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  background-color: #f1f1f1;
+  height: 8 auto;
 }
 
 .menu-option {
@@ -150,11 +152,17 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  border-radius: 0.875rem;
+  border-radius: 40px;
   border: 1px solid #e5e7eb;
-  background: white;
+  background: #2d4d31;
   cursor: pointer;
   transition: all 0.2s ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
 
   &:hover {
     background-color: #f0fdf4;
@@ -181,6 +189,7 @@
     justify-content: center;
     flex-shrink: 0;
     transition: background-color 0.2s;
+    background-color: red;
 
     &.member-icon {
       background-color: #dcfce7;
@@ -194,13 +203,16 @@
   }
 
   .option-text {
-    text-align: left;
-    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
 
     .option-title {
       font-weight: 600;
-      color: #1f2937;
-      font-size: 1rem;
+      color: #f1f1f1;
+      font-size: 0.8rem;
       margin-bottom: 0.125rem;
     }
 
@@ -215,15 +227,14 @@
 .close-button {
   width: 100%;
   padding: 1rem;
-  margin-bottom: 1rem;
-  background: transparent;
-  border: none;
+  border: 1px solid #f1f1f1;
   color: #9ca3af;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
+  border-radius: 0;
 
   &:hover {
     background: #f9fafb;

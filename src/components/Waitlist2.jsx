@@ -119,7 +119,7 @@ const Waitlist2 = () => {
                   />
                 </div>
                 <div className="waitlist2__field">
-                  <label className="waitlist2__label">LinkedIn *</label>
+                  <label className="waitlist2__label">LinkedIn Url *</label>
                   <input
                     type="tel"
                     name="Instagram"

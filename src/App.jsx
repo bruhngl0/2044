@@ -5,6 +5,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 import Waitlist from "./components/Waitlist.jsx";
 import Thankyou from "./components/Thankyou.jsx";
 import Waitlist2 from "./components/Waitlist2.jsx";
+import Faqs from "./components/Faqs.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/waitlist" element={<Waitlist />} />
         <Route path="/waitlist2" element={<Waitlist2 />} />
         <Route path="/contact" element={<Thankyou />} />
+        <Route path="/faq" element={<Faqs />} />
       </Routes>
     </BrowserRouter>
   );

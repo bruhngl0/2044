@@ -33,7 +33,9 @@ const Waitlist2 = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
-    alert("Application submitted successfully!");
+    alert(
+      "Your application has been received. Our membership team will be in touch shortly",
+    );
   };
 
   return (

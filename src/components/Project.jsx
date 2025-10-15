@@ -371,6 +371,9 @@ const Project = () => {
                   <a href="#about" className="footer-link">
                     About Us
                   </a>
+                  <a href="/faq" className="footer-link">
+                    FAQ's
+                  </a>
                 </div>
 
                 <div className="footer-section">

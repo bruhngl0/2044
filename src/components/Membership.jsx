@@ -26,7 +26,9 @@ const Membership = () => {
 
         <div className="membership-plan">
           <div className="membership-plan-1">
-            <p className="mp1-heading">THE TWENTY MEMBERSHIP</p>
+            <p className="mp1-heading">
+              THE TWENTY <br /> MEMBERSHIP
+            </p>
             <p className="mp1-des1">
               Where it all begins. The Twenty membership is your entry point
               into our world, designed for those who want to belong, connect,

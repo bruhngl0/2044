@@ -3,36 +3,36 @@ import "../styles/msplan.scss";
 
 const faqs1 = [
   {
-    q: "44 Credits Included",
+    q: "44 CREDITS INCLUDED",
     a: "1.5 Credit can be used for Pickleball sessions,1.5 credits can be used for Padel sessions, Reedemable at any Twenty 44 centre across India.",
   },
   {
-    q: "Access to Member-Only Events",
+    q: "ACCESS TO MEMBER-ONLY EVENTS",
     a: "Enjoy exclusive invites to curated gatherings, mixers, and socials hosted across our clubs.",
   },
   {
-    q: "Recovery & Wellness Access at Partner Hotels",
+    q: "RECOVERY AND WELLNESS ACCESS AT PARTNER HOTELS",
     a: "Gain preferred access to recovery zones, spas, and wellness facilities at our partner hotels.",
   },
   {
-    q: "Dining Savings at Partner Restaurants & Cafés",
+    q: "DINING SAVINGS AT PARTNER RESTARAUNTS & HOTELS",
     a: "Enjoy special member rates and priority access across our partner restaurants and cafés.",
   },
   {
-    q: "Priority Booking (2 Weeks) & Access to Certified Coaches",
+    q: "PRIORITY BOOKING (2 WEEKS) & ACCESS TO CERTIFIED COACHES",
     a: "Book courts and training sessions up to two weeks in advance and connect with certified coaches.",
   },
   {
-    q: "Early Access to Apparel Drops",
+    q: "EARLY ACCESS TO APPAREL DROPS",
     a: "Be the first to access new Twenty 44 collections, collaborations, and limited releases.",
   },
   {
-    q: "Extra Credits at 20% Off",
+    q: "EXTRA CREDITS AT 10% OFF",
     a: "Purchase additional play credits at an exclusive 20% member discount.",
   },
 
   {
-    q: "Exclusive Women Package + Invite Letter",
+    q: "WELCOME BOX + MEMBERSHIP CARD + Invite Letter",
     a: "Recieve a bespoke welcome package and a personal invite letter marking your membership",
   },
 ];

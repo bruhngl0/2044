@@ -3,13 +3,16 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1rem;
+  background-color: #f1f1f1;
 }
 
 .faq-title {
-  font-size: 2rem;
+  font-size: 24px;
   line-height: 1.1;
   margin-bottom: 1.5rem;
   letter-spacing: 0.02em;
+  font-weight: 600;
+  color: #2d4d31;
 }
 
 .faq-list {
@@ -20,7 +23,7 @@
 
 /* Each item is a two-column grid: question on the left, + toggle aligned right (inside the button) */
 .faq-item {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #2d4d31;
   
   &:last-child {
     border-bottom: none;
@@ -49,12 +52,13 @@
   border: none;
   text-align: left;
   cursor: pointer;
+  color: #2d4d31;
 
   /* typography */
   font: inherit;
   font-weight: 400;
   letter-spacing: 0.01em;
-  font-size: 12px;
+  font-size: 16px;
 
   /* focus styles for a11y */
   outline: none;
@@ -86,9 +90,9 @@
   will-change: max-height, opacity;
   p {
     margin: 0.75rem 0 1rem;
-    color: white;
+    color: #2d4d31;
     line-height: 1.6;
-    font-size: 12px;
+    font-size: 16px;
     
   }
 }

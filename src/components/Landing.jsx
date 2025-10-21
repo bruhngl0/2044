@@ -4,6 +4,7 @@ import Project from "./Project";
 import ExpandableLogoButton from "./ExpandableLogoButton";
 import Faqs from "./Faqs";
 import { Footer } from "./Footer";
+import SimplyBookEmbed from "./SimplyBookEmbed";
 
 const Landing = () => {
   return (
@@ -13,7 +14,7 @@ const Landing = () => {
       <About />
 
       <div style={{ width: "100vw", position: "relative" }}>
-        <a style={{ display: "block", position: "relative" }}>
+        <a href="/book" style={{ display: "block", position: "relative" }}>
           <p
             style={{
               position: "absolute",
@@ -39,6 +40,7 @@ const Landing = () => {
           />
         </a>
       </div>
+
       <Faqs />
 
       <Footer />

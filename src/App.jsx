@@ -7,6 +7,7 @@ import Thankyou from "./components/Thankyou.jsx";
 import Waitlist2 from "./components/Waitlist2.jsx";
 import Faqs from "./components/Faqs.jsx";
 import BookCourt from "./components/BookCourt.jsx";
+import Policy from "./components/Policy.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Thankyou />} />
         <Route path="/faq" element={<Faqs />} />
         <Route path="/book" element={<BookCourt />} />
+        <Route path="/policy" element={<Policy />} />
       </Routes>
     </BrowserRouter>
   );

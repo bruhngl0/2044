@@ -32,6 +32,12 @@ const Waitlist2 = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!formData.agreement) {
+      alert("Please agree to the terms and conditions before submitting.");
+      return;
+    }
+
     console.log("Form submitted:", formData);
     alert(
       "Your application has been received. Our membership team will be in touch shortly",
@@ -52,7 +58,7 @@ const Waitlist2 = () => {
 
       <div className="waitlist2">
         <div className="waitlist2__container">
-          <div className="waitlist2__form">
+          <form className="waitlist2__form" onSubmit={handleSubmit}>
             <div className="waitlist2__section">
               <h2 className="waitlist2__section-title">PERSONAL INFORMATION</h2>
 
@@ -71,7 +77,7 @@ const Waitlist2 = () => {
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">Email *</label>
                   <input
-                    type="text"
+                    type="email"
                     name="Email"
                     value={formData.Email}
                     onChange={handleChange}
@@ -84,19 +90,32 @@ const Waitlist2 = () => {
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">Phone *</label>
-                  <input
-                    type="text"
-                    name="Phone"
-                    value={formData.Phone}
-                    onChange={handleChange}
-                    className="waitlist2__input"
-                    required
-                  />
+                  <div style={{ display: "flex", gap: "8px" }}>
+                    <input
+                      type="text"
+                      value="+91"
+                      disabled
+                      style={{ width: "60px", backgroundColor: "#f5f5f5" }}
+                      className="waitlist2__input"
+                    />
+                    <input
+                      type="tel"
+                      name="Phone"
+                      value={formData.Phone}
+                      onChange={handleChange}
+                      className="waitlist2__input"
+                      placeholder="9876543210"
+                      pattern="[0-9]{10}"
+                      maxLength="10"
+                      required
+                      style={{ width: "100%" }}
+                    />
+                  </div>
                 </div>
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">Birthdate *</label>
                   <input
-                    type="text"
+                    type="date"
                     name="Birthdate"
                     value={formData.Birthdate}
                     onChange={handleChange}
@@ -110,7 +129,7 @@ const Waitlist2 = () => {
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">Profession *</label>
                   <input
-                    type="email"
+                    type="text"
                     name="Profession"
                     value={formData.Profession}
                     onChange={handleChange}
@@ -121,7 +140,7 @@ const Waitlist2 = () => {
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">LinkedIn Url *</label>
                   <input
-                    type="tel"
+                    type="url"
                     name="Instagram"
                     value={formData.Instagram}
                     onChange={handleChange}
@@ -138,12 +157,13 @@ const Waitlist2 = () => {
                   <label className="waitlist2__label">
                     Why do you want to join Twenty 44? *
                   </label>
-                  <input
-                    type="text"
+                  <textarea
                     name="Ques1"
                     value={formData.Ques1}
                     onChange={handleChange}
                     className="waitlist2__input-big"
+                    rows="4"
+                    style={{ outlineColor: "#2d4d31" }}
                     required
                   />
                 </div>
@@ -154,13 +174,14 @@ const Waitlist2 = () => {
                   <label className="waitlist2__label">
                     What do you expect from your experience at Twenty 44? *{" "}
                   </label>
-                  <input
-                    type="text"
+                  <textarea
                     name="Ques2"
                     value={formData.Ques2}
                     onChange={handleChange}
                     className="waitlist2__input-big"
+                    rows="4"
                     required
+                    style={{ outlineColor: "#2d4d31" }}
                   />
                 </div>
               </div>
@@ -168,15 +189,16 @@ const Waitlist2 = () => {
               <div className="waitlist2__row">
                 <div className="waitlist2__field">
                   <label className="waitlist2__label">
-                    How would you describe the lifestyle you’re looking to build
+                    How would you describe the lifestyle you're looking to build
                     with Twenty 44? *{" "}
                   </label>
-                  <input
-                    type="text"
+                  <textarea
                     name="Ques3"
                     value={formData.Ques3}
                     onChange={handleChange}
                     className="waitlist2__input-big"
+                    rows="4"
+                    style={{ outlineColor: "#2d4d31" }}
                     required
                   />
                 </div>
@@ -250,13 +272,18 @@ const Waitlist2 = () => {
                 <label className="waitlist2__label">
                   How did you hear about us? *
                 </label>
-                <input
-                  type="text"
+                <select
                   name="ReferredBy"
                   value={formData.ReferredBy}
                   onChange={handleChange}
-                  className="waitlist2__input"
-                />
+                  className="waitlist2__select"
+                  required
+                >
+                  <option value="">Select an option</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="Ads">Ads</option>
+                  <option value="Friends">Friends</option>
+                </select>
               </div>
             </div>
 
@@ -277,14 +304,10 @@ const Waitlist2 = () => {
               </label>
             </div>
 
-            <button
-              type="button"
-              onClick={handleSubmit}
-              className="waitlist2__submit"
-            >
+            <button type="submit" className="waitlist2__submit">
               SUBMIT APPLICATION
             </button>
-          </div>
+          </form>
         </div>
       </div>
       <Footer />

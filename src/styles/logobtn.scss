@@ -30,7 +30,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
 
   }
@@ -147,7 +147,6 @@
 }
 
 .menu-option {
-  width: 100%;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -165,7 +164,7 @@
   
 
   &:hover {
-    background-color: #f0fdf4;
+    background-color: #2d4d31;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 
@@ -227,7 +226,7 @@
 .close-button {
   width: 100%;
   padding: 1rem;
-  border: 1px solid #f1f1f1;
+  border: 0px solid #f1f1f1;
   color: #9ca3af;
   cursor: pointer;
   display: flex;
@@ -238,11 +237,11 @@
 
   &:hover {
     background: #f9fafb;
-    color: #6b7280;
+    color: #2d4d31;
   }
 
   &:active {
-    background: #f3f4f6;
+    background: #2d4d31;
   }
 }
 
@@ -251,7 +250,7 @@
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 999;
+  z-index: 0;
   animation: fadeIn 0.3s ease;
 }
 

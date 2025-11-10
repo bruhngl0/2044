@@ -6,13 +6,16 @@ export const Footer = () => {
       <footer className="card-footer">
         <div className="footer-content" style={{ width: "100vw" }}>
           <div className="footer-section">
-            <a href="#court-booking" className="footer-link">
+            <a
+              href="https://wa.me/919845382044?text=Hi%2C%20I%20would%20like%20to%20book%20a%20court"
+              className="footer-link"
+            >
               Court Booking
             </a>
-            <a href="#memberships" className="footer-link">
+            <a href="/membership" className="footer-link">
               Memberships
             </a>
-            <a href="#about" className="footer-link">
+            <a href="#" className="footer-link">
               About Us
             </a>
 
@@ -22,11 +25,11 @@ export const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <a href="mailto:info@example.com" className="footer-link">
+            <a href="mailto:office.twenty44@gmail.com" className="footer-link">
               Email
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/twenty44.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
               className="footer-link"
@@ -44,13 +47,13 @@ export const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <a href="#terms" className="footer-link">
+            <a href="/policy" className="footer-link">
               Terms and Conditions
             </a>
-            <a href="#privacy" className="footer-link">
+            <a href="/policy" className="footer-link">
               Privacy Policy
             </a>
-            <a href="#refund" className="footer-link">
+            <a href="/policy" className="footer-link">
               Refund and Cancellation Policy
             </a>
           </div>

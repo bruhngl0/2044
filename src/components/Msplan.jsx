@@ -4,7 +4,7 @@ import "../styles/msplan.scss";
 const faqs1 = [
   {
     q: "20 CREDITS INCLUDED",
-    a: "1 Credit can be used for Pickleball sessions,1.5 credits can be used for Padel sessions, Reedemable at any Twenty 44 centre across India.",
+    a: "1 Credit can be used for Pickleball sessions & 1.5 credits can be used for Padel sessions. Reedemable at any Twenty 44 centre across India.",
   },
   {
     q: "ACCESS TO MEMBER-ONLY EVENTS",

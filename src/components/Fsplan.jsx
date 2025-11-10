@@ -4,7 +4,7 @@ import "../styles/msplan.scss";
 const faqs1 = [
   {
     q: "44 CREDITS INCLUDED",
-    a: "1 Credit can be used for Pickleball sessions,1.5 credits can be used for Padel sessions, Reedemable at any Twenty 44 centre across India.",
+    a: "1 Credit can be used for Pickleball sessions & 1.5 credits can be used for Padel sessions. Reedemable at any Twenty 44 centre across India.",
   },
   {
     q: "ACCESS TO MEMBER-ONLY EVENTS",
@@ -32,8 +32,8 @@ const faqs1 = [
   },
 
   {
-    q: "WELCOME BOX + MEMBERSHIP CARD + Invite Letter",
-    a: "Recieve a bespoke welcome package and a personal invite letter marking your membership",
+    q: "WELCOME BOX + MEMBERSHIP CARD",
+    a: "Recieve a personalized membership card and a curated welcome box to begin your journey.",
   },
 ];
 

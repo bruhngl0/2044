@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { User, Calendar, X } from "lucide-react";
 import "../styles/logobtn.scss";
 
@@ -28,34 +29,34 @@ export default function ExpandableLogoButton() {
           <div className="expanded-content">
             <div className="menu-header">
               <div className="header-logo">
-                <img src="2044.svg" />
+                <img src="2044.svg" />{" "}
               </div>
             </div>
 
             <div className="menu-options">
-              <button
-                onClick={() => {
-                  alert("Opening court booking...");
-                  setIsExpanded(false);
-                }}
+              <a
+                href="https://wa.me/YOUR_PHONE_NUMBER?text=Hi%2C%20I%20would%20like%20to%20book%20a%20court"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsExpanded(false)}
                 className="menu-option"
+                style={{ textDecoration: "none" }}
               >
                 <div className="option-text">
                   <div className="option-title">BOOK A COURT</div>
                 </div>
-              </button>
+              </a>
 
-              <button
-                onClick={() => {
-                  alert("Opening membership form...");
-                  setIsExpanded(false);
-                }}
+              <Link
+                to="/membership"
+                onClick={() => setIsExpanded(false)}
                 className="menu-option"
+                style={{ textDecoration: "none" }}
               >
                 <div className="option-text">
                   <div className="option-title">DISCOVER MEMBERSHIP</div>
                 </div>
-              </button>
+              </Link>
             </div>
 
             <button

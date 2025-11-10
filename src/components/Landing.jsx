@@ -13,8 +13,11 @@ const Landing = () => {
       <HeroSection />
       <About />
 
-      <div style={{ width: "100vw", position: "relative" }}>
-        <a href="/book" style={{ display: "block", position: "relative" }}>
+      <div style={{ width: "100vw", position: "relative", height: "100vh" }}>
+        <a
+          href="https://wa.me/919845382044?text=Hi%2C%20I%20would%20like%20to%20book%20a%20court"
+          style={{ display: "block", position: "relative" }}
+        >
           <p
             style={{
               position: "absolute",
@@ -34,6 +37,7 @@ const Landing = () => {
             alt="Book a court"
             style={{
               width: "100%",
+              height: "100vh",
               objectFit: "cover",
               display: "block",
             }}

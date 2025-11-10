@@ -138,14 +138,13 @@ const Waitlist2 = () => {
                   />
                 </div>
                 <div className="waitlist2__field">
-                  <label className="waitlist2__label">LinkedIn Url *</label>
+                  <label className="waitlist2__label">LinkedIn URL</label>
                   <input
                     type="url"
                     name="Instagram"
                     value={formData.Instagram}
                     onChange={handleChange}
                     className="waitlist2__input"
-                    required
                   />
                 </div>
               </div>

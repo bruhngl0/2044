@@ -27,7 +27,7 @@ const Membership = () => {
         <div className="membership-plan">
           <div className="membership-plan-1">
             <p className="mp1-heading">
-              THE TWENTY <br /> MEMBERSHIP (6 months)
+              THE TWENTY <br /> MEMBERSHIP (6 MONTHS)
             </p>
             <p className="mp1-des1">
               Where it all begins. The Twenty membership is your entry point
@@ -48,7 +48,7 @@ const Membership = () => {
           <div className="membership-plan-1">
             <p className="mp1-heading">
               THE FORTY FOUR
-              <br /> MEMBERSHIP (12 months)
+              <br /> MEMBERSHIP (12 MONTHS)
             </p>
             <p className="mp1-des1">
               The summit of belonging. The Fourty Four Membership is crafted for
